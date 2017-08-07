@@ -1,13 +1,9 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type */
 import {test} from "tap"
 
-import tempLate from "./"
+import resolveP from "./"
 
-test(({same, end}) => {
-  same(
-    tempLate(true),
-    false
-  )
-
-  end()
+test(({equal}) => {
+  return resolveP("a")
+    .then((value) => equal(value, "a"))
 })
