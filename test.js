@@ -1,7 +1,7 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type */
 import {test} from "tap"
 
-import resolveP from "./source.js"
+import replaceWhen from "./source"
 
 test(({equal}) => {
   return resolveP("a")
