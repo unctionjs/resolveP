@@ -1,6 +1,6 @@
 {
   "name": "@unction/resolvep",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "description": "A currable version of the Promise.resolve() function",
   "keywords": [
     "unction",
