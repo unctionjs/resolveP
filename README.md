@@ -5,7 +5,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> any => Promise<any>
+> ValueType => Promise<ValueType>
 
 A port of the `Promise.resolve()` function.
 
