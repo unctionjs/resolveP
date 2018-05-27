@@ -1,3 +1,3 @@
-export default function resolveP (value: any): Promise<any> {
-  return Promise.resolve(value)
+export default function resolveP(value) {
+  return Promise.resolve(value);
 }
