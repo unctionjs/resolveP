@@ -1,7 +1,7 @@
 
 import resolveP from "./index";
 
-test(() => {
+test("works", () => {
   return resolveP("a")
     .then((value) => expect(value).toBe("a"));
 });
