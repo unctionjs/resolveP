@@ -1,5 +1,5 @@
 
-import resolveP from "./index.ts";
+import resolveP from "./index";
 
 test(() => {
   return resolveP("a")
